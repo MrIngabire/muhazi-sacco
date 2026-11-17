@@ -1,0 +1,76 @@
+# ============================================================
+# PYTHON / DJANGO
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+/backend/media/
+/backend/staticfiles/
+/backend/logs/
+local_settings.py
+
+# Environment variables (⚠️ NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+*.env
+
+# ============================================================
+# NODE / REACT / VITE
+# ============================================================
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Vite build output
+/frontend/dist/
+/frontend/.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================================
+# EDITORS / IDE
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# OS
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# MISC
+# ============================================================
+*.bak
+*.tmp
+.cache/
